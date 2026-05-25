@@ -28,4 +28,6 @@ int main(){
 void print(int yukichi,int higuchi,int noguchi){
   cout<<yukichi<<" "<<higuchi<<" "<<noguchi;
   return;
+
 }
+
