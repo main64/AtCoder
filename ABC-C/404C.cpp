@@ -36,6 +36,10 @@ int main(){
     long long vertex=E[0][0];
     long long prevertex=0;
     while(vertex!=0){
+        if(vertex==-1){
+            cout<<"No";
+            return 0;
+        }
         s.insert(vertex);
         if(E[vertex][0]==prevertex){
             prevertex=vertex;
@@ -45,8 +49,8 @@ int main(){
             vertex=E[vertex][0];
         }
     }
-    for(int m=0;m<M;m++){
-        if(s.count(m)!=1){
+    for(int n=0;n<N;n++){
+        if(s.count(n)!=1){
             cout<<"No";
             return 0;
         }
