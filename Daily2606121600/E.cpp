@@ -15,6 +15,6 @@ int main(){
     for(int i=0;i<N;i++){
         long long search=mochi[i];
     }
-    cout<<&mochi.begin();
+    
 
 }
